@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0df647a42e642758e2235bc084f7bf, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  playerSpeed: 5
+  initialAmmo: 50
+  maxAmmo: 100
+  startingHealth: 50
+  maxHealth: 50
+  shotRate: 1
+  lowestShotRate: 0.3
+  enemyDetectionRadius: 10
+  lootAtractionRadius: 3
+  timeToDisplayUpgradeDescription: 5
+  upgrades:
+  - {fileID: 11400000, guid: afe1a12de1264455da9462ab74c1314c, type: 2}
+  - {fileID: 11400000, guid: 9cf380dc5fd684ff88151513efa7836f, type: 2}
+  - {fileID: 11400000, guid: 6d69dcb666e6e4c5a8d90b96f65880bf, type: 2}
+  - {fileID: 11400000, guid: 1630ffa0e16bd4973beda522ab7bcfd8, type: 2}

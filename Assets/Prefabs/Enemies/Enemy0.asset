@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2148e12bac1ff43899f2ecace9566e7a, type: 3}
+  m_Name: Enemy0
+  m_EditorClassIdentifier: 
+  health: 10
+  damage: 10
+  damageInterval: 3
+  moveSpeed: 3
+  expDrop: 0
+  lootDropRate: 20
+  damageWhenPoisoned: 2
+  posionDamageInterval: 2
+  dropouts:
+  - {fileID: 8675895674935165679, guid: a6d239d5891984b5dbbd9399667cfde8, type: 3}
+  - {fileID: 3278104347099377794, guid: d78fa9fc490b94c78ba13a6a9e013b64, type: 3}
+  - {fileID: 2191031880355012693, guid: abb95091afeca43428b3db1d9e5060b0, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec3ec95c9ef3432b8e438806a9e67c5, type: 3}
+  m_Name: SpawnSettings
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 5612447748010436682, guid: 561c4908110924f60a2de0e62221d05e, type: 3}
+  - {fileID: 6082104056331639656, guid: 00e2c052071024d5d899ae10243819a9, type: 3}
+  - {fileID: 2590420128425710105, guid: a813d2439c6fa4e67a78996f35eb2207, type: 3}
+  - {fileID: 2045190578863501559, guid: 32d0d9157ac9f4bc58b3cda984628632, type: 3}
+  initialSpawnRate: 10
+  spawnRateIncrease: 0.5
+  minSpawnRate: 0.5
+  spawnAreaPadding: 10
